@@ -15,3 +15,13 @@
   /* background-color: #747bff; */
   color: #b1b5fb;
 }
+
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.image {
+  max-width: 100%;
+}
